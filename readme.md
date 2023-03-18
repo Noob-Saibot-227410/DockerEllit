@@ -41,5 +41,5 @@ Este repositório é aberto a contribuições de outras tecnologias e imagens Do
 
 Além disso, este repositório está aberto a patrocínios para manter o projeto e expandir ainda mais as tecnologias disponíveis. Se você se interessa em apoiar este projeto, entre em contato conosco e saiba mais.
 
-<h1> Projeto de Brinde </h1>
+<h1> Projeto de Brinde aos que patrocinam</h1>
 Para ajudar ainda mais no aprendizado, disponibilizamos um projeto de brinde utilizando algumas das tecnologias disponíveis neste repositório. O projeto consiste em uma aplicação web em Node.js que se comunica com um banco de dados MySQL, e está disponível na pasta projeto-de-brinde.

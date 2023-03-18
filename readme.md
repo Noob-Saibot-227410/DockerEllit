@@ -14,7 +14,7 @@ Cada pasta deste repositório contém uma imagem Docker configurada para a respe
   <img src="https://img.icons8.com/color/48/000000/nodejs.png">
   <img src="https://img.icons8.com/color/48/000000/react-native.png">
   <img src="https://img.icons8.com/color/48/000000/mysql.png">
-  <img src="imgs\postgre.png">
+  <img src="imgs/postgre.png" alt="PostgreSQL" width="48px">
   <img src="https://img.icons8.com/color/48/000000/terraform.png">
   <img src="https://img.icons8.com/color/48/000000/git.png">
   <img src="https://img.icons8.com/color/48/000000/jenkins.png">

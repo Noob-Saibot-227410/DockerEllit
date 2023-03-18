@@ -39,26 +39,29 @@ Aproveite bastante!
 <h1>Principais comandos Docker</h1>
   <img src="https://img.icons8.com/color/48/000000/docker.png">
 
-* Comandos Básicos
-docker pull: baixa uma imagem do Docker Hub para o seu sistema local.
-docker run: cria um contêiner a partir de uma imagem do Docker.
-docker ps: lista todos os contêineres em execução no momento.
-docker stop: para um contêiner em execução.
-docker rm: remove um contêiner.
-docker rmi: remove uma imagem do Docker do sistema local.
-docker images: lista todas as imagens do Docker no sistema local.
-Comandos de Rede
-docker network ls: lista todas as redes criadas no sistema local.
-docker network create: cria uma nova rede.
-docker network connect: conecta um contêiner a uma rede.
-docker network disconnect: desconecta um contêiner de uma rede.
-Comandos de Volume
-docker volume ls: lista todos os volumes criados no sistema local.
-docker volume create: cria um novo volume.
-docker volume rm: remove um volume.
-Comandos de Composição
-docker-compose up: inicia todos os serviços definidos em um arquivo docker-compose.yml.
-docker-compose down: para todos os serviços definidos em um arquivo docker-compose.yml e remove os contêineres.
+<h2>Comandos Básicos </h2>
+* docker pull: baixa uma imagem do Docker Hub para o seu sistema local.
+* docker run: cria um contêiner a partir de uma imagem do Docker.
+* docker ps: lista todos os contêineres em execução no momento.
+* docker stop: para um contêiner em execução.
+* docker rm: remove um contêiner.
+* docker rmi: remove uma imagem do Docker do sistema local.
+* docker images: lista todas as imagens do Docker no sistema local.
+
+<h2>Comandos de Rede</h2>
+* docker network ls: lista todas as redes criadas no sistema local.
+* docker network create: cria uma nova rede.
+* docker network connect: conecta um contêiner a uma rede.
+* docker network disconnect: desconecta um contêiner de uma rede.
+
+<h2>Comandos de Volume</h2>
+* docker volume ls: lista todos os volumes criados no sistema local.
+* docker volume create: cria um novo volume.
+* docker volume rm: remove um volume.
+
+<h2>Comandos de Composição</h2>
+* docker-compose up: inicia todos os serviços definidos em um arquivo docker-compose.yml.
+* docker-compose down: para todos os serviços definidos em um arquivo docker-compose.yml e remove os contêineres.
 
 <h1>Contribuições</h1>
 

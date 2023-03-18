@@ -13,13 +13,35 @@ Cada pasta deste repositório contém uma imagem Docker configurada para a respe
   <img src="https://img.icons8.com/color/48/000000/python.png">
   <img src="https://img.icons8.com/color/48/000000/nodejs.png">
   <img src="https://img.icons8.com/color/48/000000/react-native.png">
-  <img src="https://img.icons8.com/color/48/000000/mysql.png">
   <img src="imgs/postgre.png" alt="PostgreSQL" width="48px">
   <img src="https://img.icons8.com/color/48/000000/terraform.png">
   <img src="https://img.icons8.com/color/48/000000/git.png">
   <img src="https://img.icons8.com/color/48/000000/jenkins.png">
+  <img src="https://img.icons8.com/color/48/000000/mysql.png">
 </div>
 
+<div style="display:flex; flex-wrap:wrap;">
+  <img src="https://img.icons8.com/color/48/000000/docker.png" alt="Docker">
+  <img src="https://img.icons8.com/color/48/000000/docker-compose.png" alt="Docker Compose">
+  <img src="https://img.icons8.com/color/48/000000/microsoft-sql-server.png" alt="SQL Server">
+  <img src="https://img.icons8.com/color/48/000000/gitlab.png" alt="GitLab">
+  <img src="https://img.icons8.com/color/48/000000/ubuntu.png" alt="Ubuntu">
+  <img src="https://img.icons8.com/color/48/000000/windows-10.png" alt="Windows">
+  <img src="https://img.icons8.com/color/48/000000/mac-os.png" alt="macOS">
+  <img src="https://img.icons8.com/color/48/000000/freebsd.png" alt="FreeBSD">
+  <img src="https://img.icons8.com/color/48/000000/dot-net.png" alt=".NET">
+  <img src="https://img.icons8.com/color/48/000000/java-coffee-cup-logo.png" alt="Java">
+  <img src="https://img.icons8.com/color/48/000000/terraform.png" alt="Terraform">
+  <img src="https://img.icons8.com/color/48/000000/nodejs.png" alt="Node.js">
+  <img src="https://img.icons8.com/color/48/000000/postgresql.png" alt="PostgreSQL">
+  <img src="https://img.icons8.com/color/48/000000/grafana.png" alt="Grafana">
+  <img src="https://img.icons8.com/color/48/000000/zabbix.png" alt="Zabbix">
+  <img src="https://img.icons8.com/color/48/000000/datadog.png" alt="DataDog">
+  <img src="https://img.icons8.com/color/48/000000/wordpress.png" alt="WordPress">
+  <img src="https://img.icons8.com/color/48/000000/backstage.png" alt="Backstage">
+  <img src="https://img.icons8.com/color/48/000000/tensorflow.png" alt="TensorFlow">
+  <img src="https://img.icons8.com/color/48/000000/harness.png" alt="Harness Agent">
+</div>
 
 
 Docker
@@ -33,14 +55,9 @@ macOS
 FreeBSD
 .NET
 Java
-Terraform
-Node.js
-PostgreSQL
 Grafana
 Zabbix
 DataDog
-Jenkins
-Python
 WordPress
 Backstage
 TensorFlow

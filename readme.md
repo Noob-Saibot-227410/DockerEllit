@@ -1,8 +1,10 @@
 # Imagens Docker para estudo e treinamento em TI
 
-Este repositório contém uma coleção de imagens Docker de diversas tecnologias utilizadas no mercado de TI, disponibilizadas com o objetivo de serem utilizadas para estudo e treinamento.
+Você gosta de Docker? já sabe os comandos? Este repositório contém uma coleção de imagens Docker de diversas tecnologias utilizadas no mercado de TI, disponibilizadas com o objetivo de serem utilizadas para estudo e treinamento.
 
 Cada pasta deste repositório contém uma imagem Docker configurada para a respectiva tecnologia. As instruções de uso de cada imagem podem ser encontradas no arquivo README de cada pasta.
+
+Aproveite bastante!
 
 <h1>Tecnologias disponíveis</h1>
 
@@ -34,6 +36,29 @@ Cada pasta deste repositório contém uma imagem Docker configurada para a respe
 | ![React](https://img.icons8.com/color/48/000000/react-native.png) React | ![MySQL](https://img.icons8.com/color/48/000000/mysql.png) MySQL | ![PostgreSQL](https://img.icons8.com/color/48/000000/postgresql.png) PostgreSQL |
 | ![Terraform](https://img.icons8.com/color/48/000000/terraform.png) Terraform | ![Git](https://img.icons8.com/color/48/000000/git.png) Git | ![Jenkins](https://img.icons8.com/color/48/000000/jenkins.png) Jenkins | -->
 
+<h1>Principais comandos Docker</h1>
+  <img src="https://img.icons8.com/color/48/000000/docker.png">
+
+. Comandos Básicos
+docker pull: baixa uma imagem do Docker Hub para o seu sistema local.
+docker run: cria um contêiner a partir de uma imagem do Docker.
+docker ps: lista todos os contêineres em execução no momento.
+docker stop: para um contêiner em execução.
+docker rm: remove um contêiner.
+docker rmi: remove uma imagem do Docker do sistema local.
+docker images: lista todas as imagens do Docker no sistema local.
+Comandos de Rede
+docker network ls: lista todas as redes criadas no sistema local.
+docker network create: cria uma nova rede.
+docker network connect: conecta um contêiner a uma rede.
+docker network disconnect: desconecta um contêiner de uma rede.
+Comandos de Volume
+docker volume ls: lista todos os volumes criados no sistema local.
+docker volume create: cria um novo volume.
+docker volume rm: remove um volume.
+Comandos de Composição
+docker-compose up: inicia todos os serviços definidos em um arquivo docker-compose.yml.
+docker-compose down: para todos os serviços definidos em um arquivo docker-compose.yml e remove os contêineres.
 
 <h1>Contribuições</h1>
 

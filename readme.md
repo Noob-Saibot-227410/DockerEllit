@@ -1,6 +1,6 @@
 # Imagens Docker para estudo e treinamento em TI
 
-<p>Você gosta de Docker e é apaixonado? ❤️🧡💛 já sabe os comandos? Este repositório contém uma coleção de imagens Docker de diversas tecnologias utilizadas no mercado de TI, disponibilizadas com o objetivo de serem utilizadas para estudo e treinamento.</p>
+<p>Você gosta de Docker e é apaixonado? ❤️🧡💛 já pensou em ter todos os códigos Docker em um só luugar? Agora pode ter aqui neste repositório. Outra peergunta, sabe os comandos? Este repositório contém uma coleção de imagens Docker de diversas tecnologias utilizadas no mercado de TI, disponibilizadas com o objetivo de serem utilizadas para estudo e treinamento.</p>
 
 <p>Cada pasta deste repositório contém uma imagem Docker configurada para a respectiva tecnologia. As instruções de uso de cada imagem podem ser encontradas no arquivo README de cada pasta.</p>
 

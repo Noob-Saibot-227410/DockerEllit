@@ -1,10 +1,10 @@
 # Imagens Docker para estudo e treinamento em TI
 
-Você gosta de Docker? já sabe os comandos? Este repositório contém uma coleção de imagens Docker de diversas tecnologias utilizadas no mercado de TI, disponibilizadas com o objetivo de serem utilizadas para estudo e treinamento.
+<p>Você gosta de Docker e é apaixonado? ❤️🧡💛 já sabe os comandos? Este repositório contém uma coleção de imagens Docker de diversas tecnologias utilizadas no mercado de TI, disponibilizadas com o objetivo de serem utilizadas para estudo e treinamento.</p>
 
-Cada pasta deste repositório contém uma imagem Docker configurada para a respectiva tecnologia. As instruções de uso de cada imagem podem ser encontradas no arquivo README de cada pasta.
+<p>Cada pasta deste repositório contém uma imagem Docker configurada para a respectiva tecnologia. As instruções de uso de cada imagem podem ser encontradas no arquivo README de cada pasta.</p>
 
-Aproveite bastante!
+<p>Aproveite bastante!</p>
 
 <h1>Tecnologias disponíveis</h1>
 
@@ -40,34 +40,34 @@ Aproveite bastante!
   <img src="https://img.icons8.com/color/48/000000/docker.png">
 
 <h2>Comandos Básicos </h2>
-* docker pull: baixa uma imagem do Docker Hub para o seu sistema local.
-* docker run: cria um contêiner a partir de uma imagem do Docker.
-* docker ps: lista todos os contêineres em execução no momento.
-* docker stop: para um contêiner em execução.
-* docker rm: remove um contêiner.
-* docker rmi: remove uma imagem do Docker do sistema local.
-* docker images: lista todas as imagens do Docker no sistema local.
+<p>docker pull: baixa uma imagem do Docker Hub para o seu sistema local.</p>
+<p>docker run: cria um contêiner a partir de uma imagem do Docker.</p>
+<p>docker ps: lista todos os contêineres em execução no momento.</p>
+<p>docker stop: para um contêiner em execução.</p>
+<p>docker rm: remove um contêiner.</p>
+<p>docker rmi: remove uma imagem do Docker do sistema local.</p>
+<p>docker images: lista todas as imagens do Docker no sistema local.</p>
 
 <h2>Comandos de Rede</h2>
-* docker network ls: lista todas as redes criadas no sistema local.
-* docker network create: cria uma nova rede.
-* docker network connect: conecta um contêiner a uma rede.
-* docker network disconnect: desconecta um contêiner de uma rede.
+<p>docker network ls: lista todas as redes criadas no sistema local.</p>
+<p>docker network create: cria uma nova rede.</p>
+<p>docker network connect: conecta um contêiner a uma rede.</p>
+<p>docker network disconnect: desconecta um contêiner de uma rede.</p>
 
 <h2>Comandos de Volume</h2>
-* docker volume ls: lista todos os volumes criados no sistema local.
-* docker volume create: cria um novo volume.
-* docker volume rm: remove um volume.
+<p>docker volume ls: lista todos os volumes criados no sistema local.</p>
+<p>docker volume create: cria um novo volume.</p>
+<p>docker volume rm: remove um volume.</p>
 
 <h2>Comandos de Composição</h2>
-* docker-compose up: inicia todos os serviços definidos em um arquivo docker-compose.yml.
-* docker-compose down: para todos os serviços definidos em um arquivo docker-compose.yml e remove os contêineres.
+<p>docker-compose up: inicia todos os serviços definidos em um arquivo docker-compose.yml.</p>
+<p>docker-compose down: para todos os serviços definidos em um arquivo docker-compose.yml e remove os contêineres.</p>
 
 <h1>Contribuições</h1>
 
-Este repositório é aberto a contribuições de outras tecnologias e imagens Docker, com o objetivo de ampliar o leque de opções para estudo e treinamento em TI. Se você quiser contribuir, basta clonar este repositório, adicionar as pastas e arquivos necessários e criar um pull request.
+<p>Este repositório é aberto a contribuições de outras tecnologias e imagens Docker, com o objetivo de ampliar o leque de opções para estudo e treinamento em TI. Se você quiser contribuir, basta clonar este repositório, adicionar as pastas e arquivos necessários e criar um pull request.</p>
 
-Além disso, este repositório está aberto a patrocínios para manter o projeto e expandir ainda mais as tecnologias disponíveis. Se você se interessa em apoiar este projeto, entre em contato conosco e saiba mais.
+<p>Além disso, este repositório está aberto a patrocínios para manter o projeto e expandir ainda mais as tecnologias disponíveis. Se você se interessa em apoiar este projeto, entre em contato conosco e saiba mais.</p>
 
 <h1> Projeto de Brinde aos que patrocinam</h1>
-Para ajudar ainda mais no aprendizado, disponibilizamos um projeto de brinde utilizando algumas das tecnologias disponíveis neste repositório. O projeto consiste em uma aplicação web em Node.js que se comunica com um banco de dados MySQL, e está disponível na pasta projeto-de-brinde.
+<p>Para ajudar ainda mais no aprendizado, disponibilizamos um projeto de brinde utilizando algumas das tecnologias disponíveis neste repositório. O projeto consiste em uma aplicação web em Node.js que se comunica com um banco de dados MySQL, e está disponível na pasta projeto-de-brinde.</p>

@@ -1,0 +1,3 @@
+docker pull harness/agent
+
+docker run -it --name harness-agent harness/agent

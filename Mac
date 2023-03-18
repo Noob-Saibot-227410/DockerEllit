@@ -1,0 +1,23 @@
+# Use a imagem base do macOS
+FROM mcr.microsoft.com/mssql/server:2019-CU11-macos-11.2
+
+# Copie o script de instalação do Homebrew para o contêiner
+ADD https://raw.githubusercontent.com/Homebrew/install/master/install.sh /tmp/install.sh
+
+# Instale o Homebrew silenciosamente com os parâmetros padrão
+RUN /bin/bash /tmp/install.sh -f
+
+# Instale o Node.js e o npm usando o Homebrew
+RUN brew install node
+
+# Defina o diretório de trabalho padrão
+WORKDIR /app
+
+# Copie o código do aplicativo para o contêiner
+COPY . /app
+
+# Instale as dependências do aplicativo usando o npm
+RUN npm install
+
+# Define um comando padrão para executar quando o contêiner for iniciado
+CMD ["npm", "start"]

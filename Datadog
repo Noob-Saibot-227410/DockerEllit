@@ -1,0 +1,7 @@
+FROM datadog/docker-dd-agent:latest
+
+ENV DD_API_KEY=<sua_api_key_do_datadog>
+
+EXPOSE 8125/udp 8126/tcp
+
+CMD ["/init"]

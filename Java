@@ -1,0 +1,14 @@
+# Use a imagem base do Java
+FROM openjdk:17
+
+# Defina o diretório de trabalho padrão
+WORKDIR /app
+
+# Copie o código do aplicativo para o contêiner
+COPY . /app
+
+# Compile o aplicativo usando o Maven
+RUN ./mvnw package -DskipTests
+
+# Define um comando padrão para executar quando o contêiner for iniciado
+CMD ["java", "-jar", "target/nome-do-arquivo.jar"]

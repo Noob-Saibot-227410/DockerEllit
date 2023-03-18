@@ -1,0 +1,5 @@
+FROM zabbix/zabbix-server-pgsql:latest
+
+EXPOSE 80 10051
+
+CMD ["/usr/sbin/init"]

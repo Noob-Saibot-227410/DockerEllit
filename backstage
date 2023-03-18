@@ -1,0 +1,9 @@
+docker pull spotify/backstage
+
+
+docker run -it --rm -p 7000:7000 spotify/backstage
+
+
+Este comando inicia o contêiner do Backstage e mapeia a porta 7000 do contêiner para a porta 7000 no host.
+
+Abra um navegador da web e acesse http://localhost:7000 para acessar o Backstage.

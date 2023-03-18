@@ -1,0 +1,23 @@
+FROM wordpress:latest
+
+# Define o diretório de trabalho
+WORKDIR /var/www/html/
+
+# Copia o código fonte para o diretório de trabalho
+COPY . .
+
+# Define a porta de exposição da aplicação
+EXPOSE 80
+
+# Define o comando de inicialização da aplicação
+CMD ["apache2-foreground"]
+
+
+No diretório onde você salvou o arquivo Dockerfile, execute o seguinte comando para criar a imagem:
+
+docker build -t nome_da_imagem .
+Depois de criar a imagem, você pode executar um contêiner com o seguinte comando:
+css
+
+docker run --name nome_do_container -p 80:80 -d nome_da_imagem
+Este comando inicia um contêiner do Docker com o nome especificado e mapeia a porta 80 do contêiner para a porta 80 no host. O WordPress deve estar disponível em http://localhost.

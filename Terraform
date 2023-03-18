@@ -1,0 +1,19 @@
+# Use a imagem base do alpine
+FROM alpine:latest
+
+# Instale as dependências necessárias para o Terraform
+RUN apk add --update --no-cache wget unzip bash
+
+# Baixe e instale o Terraform
+RUN wget https://releases.hashicorp.com/terraform/1.1.4/terraform_1.1.4_linux_amd64.zip \
+    && unzip terraform_1.1.4_linux_amd64.zip -d /usr/local/bin/ \
+    && rm -f terraform_1.1.4_linux_amd64.zip
+
+# Defina o diretório de trabalho padrão
+WORKDIR /app
+
+# Copie o código do aplicativo para o contêiner
+COPY . /app
+
+# Define um comando padrão para executar quando o contêiner for iniciado
+CMD ["terraform", "plan"]

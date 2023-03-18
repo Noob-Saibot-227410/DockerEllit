@@ -1,0 +1,14 @@
+# Use a imagem base do Windows Server Core
+FROM mcr.microsoft.com/windows/servercore:ltsc2019
+
+# Copie o arquivo de instalação do Notepad++ para o contêiner
+ADD https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v7.9/npp.7.9.Installer.x64.exe C:\temp\npp.7.9.Installer.x64.exe
+
+# Instale o Notepad++ silenciosamente com os parâmetros padrão
+RUN C:\temp\npp.7.9.Installer.x64.exe /S
+
+# Defina o diretório de trabalho padrão
+WORKDIR C:\Program Files\Notepad++
+
+# Define um comando padrão para executar quando o contêiner for iniciado
+CMD ["notepad++.exe"]

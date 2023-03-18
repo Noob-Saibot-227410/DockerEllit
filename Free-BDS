@@ -1,0 +1,17 @@
+# Use a imagem base do FreeBSD
+FROM freebsd:latest
+
+# Instale o Node.js e o npm usando o gerenciador de pacotes do FreeBSD (pkg)
+RUN pkg install -y node14 npm
+
+# Defina o diretório de trabalho padrão
+WORKDIR /app
+
+# Copie o código do aplicativo para o contêiner
+COPY . /app
+
+# Instale as dependências do aplicativo usando o npm
+RUN npm install
+
+# Define um comando padrão para executar quando o contêiner for iniciado
+CMD ["npm", "start"]

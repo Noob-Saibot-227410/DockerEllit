@@ -1,0 +1,17 @@
+# Use a imagem base do MySQL
+FROM mysql:latest
+
+# Defina variáveis de ambiente para senha do root e do usuário padrão
+ENV MYSQL_ROOT_PASSWORD=senha_root \
+    MYSQL_USER=usuario_padrao \
+    MYSQL_PASSWORD=senha_padrao \
+    MYSQL_DATABASE=nome_do_banco
+
+# Copie um arquivo de inicialização do banco de dados para o contêiner
+COPY database.sql /docker-entrypoint-initdb.d/
+
+# Expõe a porta padrão do MySQL
+EXPOSE 3306
+
+# Define um comando padrão para executar quando o contêiner for iniciado
+CMD ["mysqld"]

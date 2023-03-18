@@ -1,0 +1,17 @@
+# Use a imagem base do .NET
+FROM mcr.microsoft.com/dotnet/sdk:6.0
+
+# Defina o diretório de trabalho padrão
+WORKDIR /app
+
+# Copie o código do aplicativo para o contêiner
+COPY . /app
+
+# Restaure as dependências do aplicativo usando o dotnet
+RUN dotnet restore
+
+# Compile o aplicativo usando o dotnet
+RUN dotnet build
+
+# Define um comando padrão para executar quando o contêiner for iniciado
+CMD ["dotnet", "run"]

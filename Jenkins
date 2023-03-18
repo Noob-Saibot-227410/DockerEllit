@@ -1,0 +1,36 @@
+FROM jenkins/jenkins:lts
+
+# Instalar plugins do Jenkins via arquivo de configuração
+COPY plugins.txt /usr/share/jenkins/plugins.txt
+RUN /usr/local/bin/install-plugins.sh < /usr/share/jenkins/plugins.txt
+
+# Configuração do Jenkins
+COPY config/jenkins.yaml /var/jenkins_home/casc_configs/jenkins.yaml
+ENV CASC_JENKINS_CONFIG=/var/jenkins_home/casc_configs/jenkins.yaml
+
+
+
+
+
+Crie um arquivo plugins.txt que contenha os plugins que você deseja instalar no Jenkins. Por exemplo:
+
+pipeline
+git
+docker
+
+
+
+Crie um arquivo de configuração YAML para configurar o Jenkins. Por exemplo:
+yaml
+
+jenkins:
+  securityRealm:
+    local:
+      allowsSignup: false
+      users:
+        - id: "admin"
+          name: "Administrator"
+          password: "senha_admin"
+  authorizationStrategy:
+    loggedInUsersCanDoAnything: true
+  disableRememberMe: true

@@ -1,0 +1,15 @@
+# Use a imagem base do SQL Server para Linux
+FROM mcr.microsoft.com/mssql/server:2019-latest
+
+# Defina variáveis de ambiente para a senha do sa e para a aceitação do contrato de licença
+ENV SA_PASSWORD=senha_sa \
+    ACCEPT_EULA=Y
+
+# Copie um script de inicialização SQL para o contêiner
+COPY setup.sql /docker-entrypoint-initdb.d/
+
+# Expõe a porta padrão do SQL Server
+EXPOSE 1433
+
+# Define um comando padrão para executar quando o contêiner for iniciado
+CMD ["/opt/mssql/bin/sqlservr"]

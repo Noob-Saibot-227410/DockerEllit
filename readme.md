@@ -39,7 +39,7 @@ Aproveite bastante!
 <h1>Principais comandos Docker</h1>
   <img src="https://img.icons8.com/color/48/000000/docker.png">
 
-. Comandos Básicos
+* Comandos Básicos
 docker pull: baixa uma imagem do Docker Hub para o seu sistema local.
 docker run: cria um contêiner a partir de uma imagem do Docker.
 docker ps: lista todos os contêineres em execução no momento.

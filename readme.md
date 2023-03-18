@@ -8,20 +8,23 @@ Cada pasta deste repositório contém uma imagem Docker configurada para a respe
 
 ### Tecnologias utilizadas:
 
-- ![Docker](https://img.icons8.com/color/48/000000/docker.png) Docker
-- ![Python](https://img.icons8.com/color/48/000000/python.png) Python
-- ![Node.js](https://img.icons8.com/color/48/000000/nodejs.png) Node.js
-- ![React](https://img.icons8.com/color/48/000000/react-native.png) React
-- ![MySQL](https://img.icons8.com/color/48/000000/mysql.png) MySQL
-- ![PostgreSQL](https://img.icons8.com/color/48/000000/postgresql.png) PostgreSQL
-- ![Terraform](https://img.icons8.com/color/48/000000/terraform.png) Terraform
-- ![Git](https://img.icons8.com/color/48/000000/git.png) Git
-- ![Jenkins](https://img.icons8.com/color/48/000000/jenkins.png) Jenkins
+<div>
+  <img src="https://img.icons8.com/color/48/000000/docker.png" alt="Docker">
+  <img src="https://img.icons8.com/color/48/000000/python.png" alt="Python">
+  <img src="https://img.icons8.com/color/48/000000/nodejs.png" alt="Node.js">
+  <img src="https://img.icons8.com/color/48/000000/react-native.png" alt="React">
+  <img src="https://img.icons8.com/color/48/000000/mysql.png" alt="MySQL">
+  <img src="https://img.icons8.com/color/48/000000/postgresql.png" alt="PostgreSQL">
+  <img src="https://img.icons8.com/color/48/000000/terraform.png" alt="Terraform">
+  <img src="https://img.icons8.com/color/48/000000/git.png" alt="Git">
+  <img src="https://img.icons8.com/color/48/000000/jenkins.png" alt="Jenkins">
+</div>
+
 
 
 Docker
 Docker Compose
-MySQL
+
 SQL Server
 GitLab
 Ubuntu
@@ -42,6 +45,12 @@ WordPress
 Backstage
 TensorFlow
 Harness Agent
+
+| ![Docker](https://img.icons8.com/color/48/000000/docker.png) Docker | ![Python](https://img.icons8.com/color/48/000000/python.png) Python | ![Node.js](https://img.icons8.com/color/48/000000/nodejs.png) Node.js |
+| :-: | :-: | :-: |
+| ![React](https://img.icons8.com/color/48/000000/react-native.png) React | ![MySQL](https://img.icons8.com/color/48/000000/mysql.png) MySQL | ![PostgreSQL](https://img.icons8.com/color/48/000000/postgresql.png) PostgreSQL |
+| ![Terraform](https://img.icons8.com/color/48/000000/terraform.png) Terraform | ![Git](https://img.icons8.com/color/48/000000/git.png) Git | ![Jenkins](https://img.icons8.com/color/48/000000/jenkins.png) Jenkins |
+
 
 
 <h1>Contribuições</h1>

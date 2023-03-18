@@ -9,15 +9,15 @@ Cada pasta deste repositório contém uma imagem Docker configurada para a respe
 ### Tecnologias utilizadas:
 
 <div>
-  <img src="https://img.icons8.com/color/48/000000/docker.png" alt="Docker">
-  <img src="https://img.icons8.com/color/48/000000/python.png" alt="Python">
-  <img src="https://img.icons8.com/color/48/000000/nodejs.png" alt="Node.js">
-  <img src="https://img.icons8.com/color/48/000000/react-native.png" alt="React">
-  <img src="https://img.icons8.com/color/48/000000/mysql.png" alt="MySQL">
-  ![PostgreSQL](https://img.icons8.com/color/48/000000/postgresql.png)
-  <img src="https://img.icons8.com/color/48/000000/terraform.png" alt="Terraform">
-  <img src="https://img.icons8.com/color/48/000000/git.png" alt="Git">
-  <img src="https://img.icons8.com/color/48/000000/jenkins.png" alt="Jenkins">
+  <img src="https://img.icons8.com/color/48/000000/docker.png">
+  <img src="https://img.icons8.com/color/48/000000/python.png">
+  <img src="https://img.icons8.com/color/48/000000/nodejs.png">
+  <img src="https://img.icons8.com/color/48/000000/react-native.png">
+  <img src="https://img.icons8.com/color/48/000000/mysql.png">
+  <img src="https://img.icons8.com/color/48/000000/postgresql.png">
+  <img src="https://img.icons8.com/color/48/000000/terraform.png">
+  <img src="https://img.icons8.com/color/48/000000/git.png">
+  <img src="https://img.icons8.com/color/48/000000/jenkins.png">
 </div>
 
 
